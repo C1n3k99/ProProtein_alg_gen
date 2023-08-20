@@ -1,0 +1,35 @@
+# general params
+--trajectory:
+  # - ./1a3h_1__2394_303_5ns.pdb
+  # - ./1a3h_1__2394_303_10ns.pdb
+  # - ./1a3h_1__2394_303_15ns.pdb
+  # - ./1a5k_1__776_100_5ns.pdb
+  - ./1a5k_1__776_100_10ns.pdb
+  # - ./1a5k_1__776_100_15ns.pdb
+  # - ./1ag1_1__1883_250_5ns.pdb
+  # - ./1ag1_1__1883_250_10ns.pdb
+  # - ./1ag1_1__1883_250_15ns.pdb
+  # - ./1br1_1__1161_150_5ns.pdb
+  # - ./1br1_1__1161_150_10ns.pdb
+  # - ./1br1_1__1161_150_15ns.pdb
+--time-limit:
+  - 600.0
+--omp-threads:
+  - 8
+--repetitions:
+  - 5
+# genetic specific params
+--population_size:
+  - 1000
+  - 1500
+  - 2000
+--cross_prob:
+  - 0.3
+  - 0.5
+  - 0.7
+--maxpopwithoutbetterfit:
+  - 50
+--elite:
+  - 0.1
+  - 0.15
+  - 0.2
